@@ -23,7 +23,6 @@ while number_of_guesses > 0:
         print("Too high!")
     elif user_guess < correct_answer:
         print("Too low!")
-
     number_of_guesses -= 1
 
 if user_won == True:
